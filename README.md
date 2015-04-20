@@ -3,34 +3,22 @@
 Join us for BU's annual overnight hackathon! Make, hack, innovate and create with other students for 24 hours. Build something cool, eat free food, meet new people, and compete to win cash prizes. It's all happening on March 28 at BU's new Engineering and Product Innovation Center.
 
 ## What is a hackathon?
-A weekend collaborative competition to build something. Join with a team and build a web, mobile, hardware, or physical product. More <a href="https://medium.com/hackathons-anonymous/92668579601">here</a>
+A weekend collaborative competition to build something. Join with a team and build a web, mobile, hardware, or physical product. More <a href="https://medium.com/hackathons-anonymous/92668579601">here</a>!
 
 ## Who can attend?
 Any student. While we can't reimburse you for travel, we'll provide free food and drink. We'll have limited sleeping space, so come rested or plan to stay with a friend if you're not local.
-          </h5>
-        </div>
 
-        <div class="col-md-4">
-          <h3>Why should I come?</h3>
-          <h5>
-            You'll meet other hackers and have lots of fun! And of course you can brag about your project to employers and friends. Hackathons are a great place to learn new technology and increase your horizons!
-          </h5>
-        </div>
-        <div class="col-sm-12">
-          <p></p>
-        </div>
 
-        <div class="col-md-4">
-          <h3>What's provided?</h3>
-          <h5>
-            Food, snacks, drinks, caffeine, power and Internet access. Although EPIC has machinery, it won't be available for use.
-          </h5>
-        </div>
+## Why should I come?
+You'll meet other hackers and have lots of fun! And of course you can brag about your project to employers and friends. Hackathons are a great place to learn new technology and increase your horizons!
 
-        <div class="col-md-4">
-          <h3>What should I bring?</h3>
-          <h5>
-            Computers, phones, tablets, circuit boards, microprocessors, and anything else you might need
+
+What's provided?
+Food, snacks, drinks, caffeine, power and Internet access. Although EPIC has machinery, it won't be available for use.
+ 
+
+What should I bring?
+Computers, phones, tablets, circuit boards, microprocessors, and anything else you might need
           </h5>
         </div>
 
