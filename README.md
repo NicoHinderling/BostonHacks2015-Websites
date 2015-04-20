@@ -1,26 +1,88 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+# [MAKE BU Fall 2015](http://make.bu.edu/)
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+[About Make BU](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
 
-## Getting Started
+## Getting 
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+        <p>
+          Join us for BU's annual overnight hackathon! Make, hack, innovate and create with other students for 24 hours. Build something cool, eat free food, meet new people, and compete to win cash prizes. It's all happening on March 28 at BU's new Engineering and Product Innovation Center.
+        </p>
+      </div>
+      <div class="col-sm-12">
+        <p></p>
+      </div>
 
-## Bugs and Issues
+      <div class="faq">
+        <div class="col-md-4">
+          <h3>What is a hackathon?</h3>
+          <h5>
+            A weekend collaborative competition to build something.
+                Join with a team and build a web, mobile, hardware, or physical product. More
+            <a href="https://medium.com/hackathons-anonymous/92668579601">here</a>
+            .
+          </h5>
+        </div>
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+        <div class="col-md-4">
+          <h3>Who can attend?</h3>
+          <h5>
+            Any student. While we can't reimburse you for travel, we'll provide free food and drink. We'll have limited sleeping space, so come rested or plan to stay with a friend if you're not local.
+          </h5>
+        </div>
 
-## Creator
+        <div class="col-md-4">
+          <h3>Why should I come?</h3>
+          <h5>
+            You'll meet other hackers and have lots of fun! And of course you can brag about your project to employers and friends. Hackathons are a great place to learn new technology and increase your horizons!
+          </h5>
+        </div>
+        <div class="col-sm-12">
+          <p></p>
+        </div>
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+        <div class="col-md-4">
+          <h3>What's provided?</h3>
+          <h5>
+            Food, snacks, drinks, caffeine, power and Internet access. Although EPIC has machinery, it won't be available for use.
+          </h5>
+        </div>
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+        <div class="col-md-4">
+          <h3>What should I bring?</h3>
+          <h5>
+            Computers, phones, tablets, circuit boards, microprocessors, and anything else you might need
+          </h5>
+        </div>
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+        <div class="col-md-4">
+          <h3>What can I make?</h3>
+          <h5>
+            Our only restriction is that you cannot use existing work (e.g. code/designs) if participating for prizes. You can only use open source code or designs (i.e. things anyone can freely access).
+          </h5>
+        </div>
+        <div class="col-sm-12">
+          <p></p>
+        </div>
 
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+        <div class="col-md-4">
+          <h3>How big are teams?</h3>
+          <h5>
+            Usually 2-4 people, but you can work salone or with a larger team. Teams larger than 4 will be ineligible for prizes.
+          </h5>
+        </div>
+        <div class="col-md-4">
+          <h3>Are there sponsors?</h3>
+          <h5>
+            Yes! See below. Interested in sponsoring?
+            <a href="mailto:makebu@bu.edu">Contact us!</a>
+          </h5>
+        </div>
+        <div class="col-md-4">
+          <h3>I still have questions.</h3>
+          <h5>
+            <a href="mailto:makebu@bu.edu">Contact us!</a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
