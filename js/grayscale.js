@@ -218,9 +218,11 @@ function init() {
         map: map,
     });
 
+    info.open(map,marker);
+    /*
     google.maps.event.addListener(marker, 'click', function() {
     info.open(map,marker);
-    });
+    });*/
 
 
 }
