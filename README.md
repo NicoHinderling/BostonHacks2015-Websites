@@ -1,16 +1,9 @@
 # [MAKE BU Fall 2015](http://make.bu.edu/)
 
-[About Make BU](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+Join us for BU's annual overnight hackathon! Make, hack, innovate and create with other students for 24 hours. Build something cool, eat free food, meet new people, and compete to win cash prizes. It's all happening on March 28 at BU's new Engineering and Product Innovation Center.
 
 ## Getting 
 
-        <p>
-          Join us for BU's annual overnight hackathon! Make, hack, innovate and create with other students for 24 hours. Build something cool, eat free food, meet new people, and compete to win cash prizes. It's all happening on March 28 at BU's new Engineering and Product Innovation Center.
-        </p>
-      </div>
-      <div class="col-sm-12">
-        <p></p>
-      </div>
 
       <div class="faq">
         <div class="col-md-4">
