@@ -23,7 +23,7 @@ h3,
 h4,
 /*h5, */
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 0px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -38,7 +38,22 @@ h5 {
     background-color: #000;
 }
 
+#infoWin {
+    font-color: black;
+}
 
+#mce-EMAIL {
+    color: #000;
+}
+
+
+h7 {
+   width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    background-color: #fff;    
+}
 
 
 p {
@@ -277,7 +292,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -301,7 +316,7 @@ a:focus {
     }
 
     #map {
-        height: 400px;
+        height: 100%;
         margin-top: 250px;
     }
 }

@@ -46,118 +46,147 @@ function init() {
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
-        draggable: false,
+        draggable: true,
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
-        styles: [{
-            "featureType": "water",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 17
-            }]
-        }, {
-            "featureType": "landscape",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 20
-            }]
-        }, {
-            "featureType": "road.highway",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 25
-            }]
-        }, {
-            "featureType": "road.highway",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 29
-            }, {
-                "weight": 0.2
-            }]
-        }, {
-            "featureType": "road.arterial",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 18
-            }]
-        }, {
-            "featureType": "road.local",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 16
-            }]
-        }, {
-            "featureType": "poi",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 21
-            }]
-        }, {
-            "elementType": "labels.text.stroke",
-            "stylers": [{
-                "visibility": "on"
-            }, {
-                "color": "#000000"
-            }, {
-                "lightness": 16
-            }]
-        }, {
-            "elementType": "labels.text.fill",
-            "stylers": [{
-                "saturation": 36
-            }, {
-                "color": "#000000"
-            }, {
-                "lightness": 40
-            }]
-        }, {
-            "elementType": "labels.icon",
-            "stylers": [{
+        styles: [
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f7f1df"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#d0e3b4"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural.terrain",
+        "elementType": "geometry",
+        "stylers": [
+            {
                 "visibility": "off"
-            }]
-        }, {
-            "featureType": "transit",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 19
-            }]
-        }, {
-            "featureType": "administrative",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 20
-            }]
-        }, {
-            "featureType": "administrative",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 17
-            }, {
-                "weight": 1.2
-            }]
-        }]
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.medical",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#fbd3da"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#bde6ab"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ffe15f"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#efd151"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "black"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.station.airport",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#cfb2db"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#a2daf2"
+            }
+        ]
+    }
+]
     };
 
     // Get the HTML DOM element that will contain your map 
@@ -170,9 +199,28 @@ function init() {
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
     var myLatLng = new google.maps.LatLng(42.350843, -71.108126);
-    var beachMarker = new google.maps.Marker({
+
+    var info = new google.maps.InfoWindow({
+        content: '<div id="infoWin">'+
+        '<h7>George Sherman Union (2nd Floor)<br>775 Commonwealth Avenue<br>Boston, MA 02215'
+        +'<br><a href = https://www.google.com/maps/place/George+Sherman+Union/@42.3511662,-71.1056824,16z/data=!4m5!1m2!2m1!1sgsu+metcalf!3m1!1s0x89e379f002ffffff:0xb19e76970bb6218a> Directions'+
+        '<h7>'
+        +'</div>',    
+    });
+
+
+    var marker = new google.maps.Marker({
+        title: 'Ill make u',
+        anchorPoint: new google.maps.Point(-1, -24),
+        clickable: true,
+        draggable: true,
         position: myLatLng,
         map: map,
-        icon: image
     });
+
+    google.maps.event.addListener(marker, 'click', function() {
+    info.open(map,marker);
+    });
+
+
 }
