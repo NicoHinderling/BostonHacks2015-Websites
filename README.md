@@ -13,44 +13,25 @@ Any student. While we can't reimburse you for travel, we'll provide free food an
 You'll meet other hackers and have lots of fun! And of course you can brag about your project to employers and friends. Hackathons are a great place to learn new technology and increase your horizons!
 
 
-What's provided?
+## What's provided?
 Food, snacks, drinks, caffeine, power and Internet access. Although EPIC has machinery, it won't be available for use.
  
 
-What should I bring?
+## What should I bring?
 Computers, phones, tablets, circuit boards, microprocessors, and anything else you might need
-          </h5>
-        </div>
 
-        <div class="col-md-4">
-          <h3>What can I make?</h3>
-          <h5>
-            Our only restriction is that you cannot use existing work (e.g. code/designs) if participating for prizes. You can only use open source code or designs (i.e. things anyone can freely access).
-          </h5>
-        </div>
-        <div class="col-sm-12">
-          <p></p>
-        </div>
 
-        <div class="col-md-4">
-          <h3>How big are teams?</h3>
-          <h5>
-            Usually 2-4 people, but you can work salone or with a larger team. Teams larger than 4 will be ineligible for prizes.
-          </h5>
-        </div>
-        <div class="col-md-4">
-          <h3>Are there sponsors?</h3>
-          <h5>
-            Yes! See below. Interested in sponsoring?
-            <a href="mailto:makebu@bu.edu">Contact us!</a>
-          </h5>
-        </div>
-        <div class="col-md-4">
-          <h3>I still have questions.</h3>
-          <h5>
-            <a href="mailto:makebu@bu.edu">Contact us!</a>
-          </h5>
-        </div>
-      </div>
-    </div>
-  </section>
+## What can I make?
+Our only restriction is that you cannot use existing work (e.g. code/designs) if participating for prizes. You can only use open source code or designs (i.e. things anyone can freely access).
+
+
+## How big are teams?
+Usually 2-4 people, but you can work alone or with a larger team. Teams larger than 4 will be ineligible for prizes.
+
+
+##Are there sponsors?
+Yes! See below. Interested in sponsoring? <a href="mailto:makebu@bu.edu">Contact us!</a>
+
+
+## I still have questions.
+<a href="mailto:makebu@bu.edu">Contact us!</a>
