@@ -2,24 +2,11 @@
 
 Join us for BU's annual overnight hackathon! Make, hack, innovate and create with other students for 24 hours. Build something cool, eat free food, meet new people, and compete to win cash prizes. It's all happening on March 28 at BU's new Engineering and Product Innovation Center.
 
-## Getting 
+## What is a hackathon?
+A weekend collaborative competition to build something. Join with a team and build a web, mobile, hardware, or physical product. More <a href="https://medium.com/hackathons-anonymous/92668579601">here</a>
 
-
-      <div class="faq">
-        <div class="col-md-4">
-          <h3>What is a hackathon?</h3>
-          <h5>
-            A weekend collaborative competition to build something.
-                Join with a team and build a web, mobile, hardware, or physical product. More
-            <a href="https://medium.com/hackathons-anonymous/92668579601">here</a>
-            .
-          </h5>
-        </div>
-
-        <div class="col-md-4">
-          <h3>Who can attend?</h3>
-          <h5>
-            Any student. While we can't reimburse you for travel, we'll provide free food and drink. We'll have limited sleeping space, so come rested or plan to stay with a friend if you're not local.
+## Who can attend?
+Any student. While we can't reimburse you for travel, we'll provide free food and drink. We'll have limited sleeping space, so come rested or plan to stay with a friend if you're not local.
           </h5>
         </div>
 
