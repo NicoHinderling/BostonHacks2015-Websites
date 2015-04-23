@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hack Boston</title>
+  <link href="http://fonts.googleapis.com/css?family=Raleway:500,500" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0 0;
+      padding: 0 0;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-align: center;
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+    h1{
+      margin: 0 0 0px;
+      color: #fff;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 75px;
+    }
+    h2{
+      margin: 0 0 0px;
+      color: #fff;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 20px;
+    }
+    h3{
+      margin: 0 0 0px;
+      color: #fff;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 20px;
+    }
+    a {
+        color: #fff;
+    }
+    canvas {
+      width: 100%;
+      height:auto;
+      position: absolute;
+      z-index: -1;
+      margin-bottom: 0;
+    }
+    </style>
+</head>
+<body>
+  <script src="../dist/trianglify.min.js"></script>
+  <script>
+    var pattern = Trianglify({
+      height: window.innerHeight,
+      width: window.innerWidth,
+      cell_size: 30+Math.random()*100});
+    document.body.appendChild(pattern.canvas());
+  </script>
+  <div class="data" style="margin: 0 auto;">
+
+    <div style="position: relative; top: 100px">
+    <img src = logo.png>
+    <h1>Hack Boston</h1>
+    <h2>Boston University's Official Hackathon</h2>
+    <h2 style="padding-top: 35px"> Applications Open August.</h2>
+
+
+    <h2 style="padding-top: 75px"> October 30 - 31st, 2015,  Charles River Campus </h3>
+    <h2>All Undergraduate Students Welcome</h3>
+
+      <h3 style="padding-top: 25px"> Interested in being a sponsor? Contact us at <a href="make@bu.edu">Make@bu.edu</a>.</h3>
+  </div>
+</body>
+  </html>

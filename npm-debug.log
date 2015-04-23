@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@2.7.5
+3 info using node@v0.10.35
+4 verbose config Skipping project config: /Users/Hinderling/.npmrc. (matches userconfig)
+5 verbose linkPkg /Users/Hinderling
+6 verbose stack Error: ENOENT, open '/Users/Hinderling/package.json'
+7 verbose cwd /Users/Hinderling/Desktop/Google_Drive/Coding/Git/MakeBUFall2015
+8 error Darwin 14.1.0
+9 error argv "node" "/usr/local/bin/npm" "link"
+10 error node v0.10.35
+11 error npm  v2.7.5
+12 error path /Users/Hinderling/package.json
+13 error code ENOENT
+14 error errno 34
+15 error enoent ENOENT, open '/Users/Hinderling/package.json'
+15 error enoent This is most likely not a problem with npm itself
+15 error enoent and is related to npm not being able to find a file.
+16 verbose exit [ 34, true ]
